@@ -73,7 +73,7 @@ nav ul li {
 }
 
 #myProgressbar {
-  width: 80vw;
+  width: 75vw;
   cursor: pointer;
 }
 
@@ -130,4 +130,26 @@ nav ul li {
 
 
 
+
+
+@media (max-width: 900px)
+{
+  .songInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #myProgressbar{
+    margin-top:18px;
+  }
+
+}
+@media(max-width:600px)
+{
+  #disco_img{
+     width:10%;
+  }
+
+}
 
